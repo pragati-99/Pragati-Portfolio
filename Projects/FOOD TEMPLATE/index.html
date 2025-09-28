@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Lover</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- Top Bar -->
+    <div class="top-bar text-center text-md-start">
+        <div class="container d-flex justify-content-between">
+            <div>
+                <i class="fas fa-leaf"></i> Open hour - 10 am - 11 pm
+                <a href="#"><i class="fas fa-phone"></i> +00 123 456 789 000</a>
+                <a href="#"><i class="fas fa-envelope"></i> support@example.com</a>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-skype"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- section hero or 1 -->
+    <section class="hero">
+
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Food Lover</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-users"></i> About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-utensils"></i> Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-calendar-check"></i>
+                                Reservation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-blog"></i> Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#"><i class="fas fa-envelope"></i> Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-logo"> <img src="./image/logo (1).png" alt="logo" class="img-fluid"></div>
+            <h1>Surprise Your Plate</h1>
+            <h2>Fine Food + Drinks</h2>
+        </div>
+
+    </section>
+
+    <!-- section 2 -->
+
+
+    <div class="container special-offers">
+        <div class="row">
+            <!-- Special Offers Section -->
+            <div class="col-md-4">
+                <p class="text-muted">From The Menu</p>
+                <h2>SPECIAL OFFERS</h2>
+
+                <div class="menu-item">
+                    <img src="./image/02.jpg" alt="Dish 1">
+                    <div>
+                        <h5>Pring Veg & Pasta</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="ms-auto menu-price">$10</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./image/03.jpg" alt="Dish 2">
+                    <div>
+                        <h5>Cheese /Bacon, Coleslaw</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="ms-auto menu-price">$14</div>
+                </div>
+
+                <div class="menu-item">
+                    <img src="./image/04.jpg" alt="Dish 3">
+                    <div>
+                        <h5>Croissant (Plain)</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="ms-auto menu-price">$12</div>
+                </div>
+            </div>
+
+            <!-- Menu Image Grid -->
+            <div class="col-md-8 position-relative">
+                <div class="menu-grid">
+                    <img src="./image/04.jpg" alt="Pasta">
+                    <img src="./image/04.jpg" alt="Burger">
+                    <img src="./image/04.jpg" alt="Chinese">
+                    <img src="./image/04.jpg" alt="Salad">
+                </div>
+
+                <!-- Explore Button -->
+                <div class="explore-menu">
+                    <p>Explore</p>
+                    <h5>THE MENU</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 -->
+
+
+
+    <div class="container-fluid d-flex justify-content-left align-items-left vh-100 ps-5 table">
+        <div class="col-md-6 reservation-container">
+            <h2 class="text-center">Your Table</h2>
+            <h3 class="text-center fw-bold pb-5">RESERVATION NOW!</h3>
+            <form class=" pt-5">
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Contact Number" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Email Address" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="number" class="form-control" placeholder="Number of Person" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="date" class="form-control" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="time" class="form-control" required>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" rows="3" placeholder="Message of Request"></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-custom px-4 py-2">BOOK NOW</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <!-- section 4 -->
+    <div class="container mt-5">
+        <p class="sub-title">Delas Today</p>
+        <h2 class="special-dish-title">TODAY SPECIAL DISH</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="dish-card">
+                    <img src="./image/02 (2).jpg" alt="Roast Chicken">
+                    <h5 class="dish-title">Pring Veg & Pasta</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.</p>
+                    <p class="dish-price">Only $25</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="dish-card">
+                    <img src="./image/01 (3).jpg" alt="Noodles">
+                    <h5 class="dish-title">Pring Veg & Pasta</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur Vesti bulum vel ipsum ullamcorper.</p>
+                    <p class="dish-price">Only $25</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- section 5 -->
+
+    <div class="container restaurant-menu">
+        <h2>Food Lover</h2>
+        <h3 class="text-warning">RESTAURANT MENU</h3>
+        <div class="menu-filter mb-4">
+            <button class="active">ALL DISHES</button>
+            <button>DINNER</button>
+            <button>LUNCH</button>
+            <button>DRINKS</button>
+            <button>STARTERS</button>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/01 (4).jpg" alt="Chicken Dish">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/02 (3).jpg" alt="Beef Dish">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/03 (2).jpg" alt="French Toast">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/04 (1).jpg" alt="Dumplings">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/03 (5).jpg" alt="Salad">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/06.jpg" alt="Avocado Dish">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/07.jpg" alt="Dumplings">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/08.jpg" alt="Salad">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="menu-item">
+                    <img src="./image/09.jpg" alt="Avocado Dish">
+                    <p><strong>Only $25</strong></p>
+                    <p>Chicken and Cashews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 6-->
+    <div class="container-fluid testimonial-container text-white text-center">
+        <div class="container testimonial-content">
+            <h2 class="mb-3">Food Lover</h2>
+            <h3 class="fw-bold">CUSTOMER FEEDBACK</h3>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="text-dark">"Nunc ullamcorper augue nec accumsan porta. Ut lacinia feugiat viverra. Ut
+                            dictum turpis in
+                            ipsum sagittis finibus."</p>
+                        <h6 class="text-warning">Frinton Van</h6>
+
+                    </div>
+                    <img src="./image/01 (5).jpg" alt="Customer" class="customer-img">
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="text-dark">"Nunc ullamcorper augue nec accumsan porta. Ut lacinia feugiat viverra. Ut
+                            dictum turpis in
+                            ipsum sagittis finibus."</p>
+                        <h6 class="text-warning">Anna Van</h6>
+
+                    </div>
+                    <img src="./image/02 (4).jpg" alt="Customer" class="customer-img">
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="text-dark">"Nunc ullamcorper augue nec accumsan porta. Ut lacinia feugiat viverra. Ut
+                            dictum turpis in
+                            ipsum sagittis finibus."</p>
+                        <h6 class="text-warning">Frinton Van</h6>
+
+                    </div>
+                    <img src="./image/03 (4).jpg" alt="Customer" class="customer-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 7 -->
+
+
+    <div id="eventCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2 class="mb-3 text-center">Month of March</h2>
+                <h3 class="fw-bold text-center">UPCOMING EVENTS</h3>
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./image/01.png" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken and Cashews</h5>
+                                <p class="event-date">18 Mar 2016</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#" class="text-decoration-none text-warning">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./image/02.png" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken and Cashews</h5>
+                                <p class="event-date">18 Mar 2016</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#" class="text-decoration-none text-warning">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="./image/03.png" class="card-img-top" alt="Food Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Chicken and Cashews</h5>
+                                <p class="event-date">18 Mar 2016</p>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <a href="#" class="text-decoration-none text-warning">READ MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Additional slides can be added similarly -->
+        </div>
+
+    </div>
+
+    <!-- section 8 -->
+
+
+    <div class="container my-5">
+        <div class="team-title">
+            <h5>Chef Team</h5>
+            <h2>BEST CHEFS FOR YOU</h2>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./image/01 (1).png" alt="Chef">
+                    <h6 class="chef-role">Senior Chef</h6>
+                    <h5>Remeno Fentos</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./image/02 (1).png" alt="Chef">
+                    <h6 class="chef-role">Assistant Chef</h6>
+                    <h5>Remeno Fentos</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./image/03 (1).png" alt="Chef">
+                    <h6 class="chef-role">Junior Chef</h6>
+                    <h5>Remeno Fentos</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./image/04 (1).png" alt="Chef">
+                    <h6 class="chef-role">Adaptor</h6>
+                    <h5>Remeno Fentos</h5>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 9 -->
+
+
+    <div class="container-fluid counter-section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <div class="counter-box">
+                        <div class="counter-circle">
+                            <span class="counter">291</span>
+                        </div>
+                        <p class="counter-text">Best Dishes</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-box">
+                        <div class="counter-circle">
+                            <span class="counter">710</span>
+                        </div>
+                        <p class="counter-text">Awards Won</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-box">
+                        <div class="counter-circle">
+                            <span class="counter">163</span>
+                        </div>
+                        <p class="counter-text">Our Chefs</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="counter-box">
+                        <div class="counter-circle">
+                            <span class="counter">212</span>
+                        </div>
+                        <p class="counter-text">Daily Customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 10 -->
+
+    <!-- 
+    <div class="container offer-section">
+        <div class="offer-container">
+            <div class="offer-image">
+                <img src="/image/05.jpg" alt="Offer Dish">
+            </div>
+            <div class="offer-text">
+                <p style="color: #c47a3b;">Food Lover</p>
+                <h2><strong>OFFER DISHES</strong></h2>
+                <p class="discount-price">Only $30 <span class="original-price">$60</span></p>
+                <h5>Dishes and Wings</h5>
+                <p>Lorem ipsum dolor sit amet,adipiscing elit. Vestibulum vel ullamcorper, suscipit eros
+                    quis.</p>
+                <button class="about-btn">ABOUT MORE</button>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- section 11 -->
+
+    <!-- footer section  -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <h5>Food <span style="color:#c27939;">Lover</span></h5>
+                    <p>Lorem sit amet, consectetur adipiscing elit. Vestibulum volutpat urna ac dolor fermentum, sed
+                        tristique lacus placerat.</p>
+                    <a href="#">READ MORE</a>
+                </div>
+
+                <div class="col-md-3 opening-hours">
+                    <h5>Opening Hours</h5>
+                    <p><strong>MONDAY:</strong> Closed</p>
+                    <p><strong>TUE - FRI:</strong> 10 am - 9 pm</p>
+                    <p><strong>SATURDAY:</strong> 10 am - 11 pm</p>
+                    <p><strong>SUNDAY:</strong> 10 am - 12 pm</p>
+                </div>
+
+
+                <div class="col-md-3 tweets">
+                    <h5>Latest Tweets</h5>
+                    <p><i class="fab fa-twitter"></i> Sed ventis nisl au at nisi dictum. <a
+                            href="#">https://twitter.com</a></p>
+                    <p><small>2 Hours ago</small></p>
+                    <p><i class="fab fa-twitter"></i> Sed ventis nisl au at nisi dictum. <a
+                            href="#">https://twitter.com</a></p>
+                    <p><small>2 Hours ago</small></p>
+                </div>
+
+
+                <div class="col-md-3 instagram">
+                    <h5>Instagram</h5>
+                    <div class="col-md-9">
+                        <img src="./image/02.jpg" alt="Food 1">
+                        <img src="./image/03.jpg" alt="Food 2">
+                        <img src="./image/04.jpg" alt="Food 3">
+                        <img src="./image/05 (1).jpg" alt="Food 4">
+                        <img src="./image/06 (2).jpg" alt="Food 5">
+                        <img src="./image/04.jpg" alt="Food 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>Copyright 2016 © Food Lover Restaurant PSD Template</p>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

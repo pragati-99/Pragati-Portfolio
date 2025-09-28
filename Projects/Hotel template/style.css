@@ -1,0 +1,747 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Navbar Styling */
+.top-bar {
+    background: black;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navbar-dark {
+    background-color: black;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.dropdown-menu a {
+    color: white;
+    padding: 10px 15px;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: #333;
+}
+@media (max-width: 768px) {
+    .dropdown-menu {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    background: url('./image/img_1-1.webp') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.hero .btn-primary {
+    background: #0044ff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+.hero-thumbnails img {
+    width: 80px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.hero-thumbnails img:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero .btn-primary {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .hero-thumbnails img {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: 80vh;
+        padding: 10px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    .hero .btn-primary {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    .hero-thumbnails img {
+        width: 60px;
+        height: 45px;
+    }
+}
+
+/* section 2 */
+
+.welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+/* Subtitle Styling */
+.subtitle {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Image Styling */
+.welcome-images img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left: 70px;
+}
+
+
+/* Responsive Styling */
+@media (min-width: 768px) and (max-width: 992px) {
+    .welcome-title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .welcome-images img {
+        max-width: 500px;
+    }
+}
+
+
+/* section 3 */
+
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.section-subheading {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Tabs Styling */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+    justify-content: center;
+}
+
+.nav-tabs .nav-link {
+    font-size: 1.2rem;
+    color: #555;
+    border: none;
+    padding-bottom: 5px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #000;
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+}
+
+/* Room Details */
+.room-info {
+    padding: 20px;
+}
+
+.room-info h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.room-info p {
+    color: #666;
+}
+
+.room-icons {
+    font-size: 1rem;
+    color: #444;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.room-icons i {
+    margin-right: 5px;
+}
+
+.room-img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Button */
+.room-details-btn {
+    display: inline-block;
+    border: 2px solid blue;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.room-details-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Responsive Styling */
+@media (min-width: 768px) and (max-width: 992px) {
+    .section-heading {
+        font-size: 1.8rem;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 1rem;
+    }
+
+    .room-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .room-icons {
+        font-size: 0.9rem;
+    }
+
+    .room-details-btn {
+        padding: 8px 15px;
+    }
+
+}
+
+/* section 4 */
+/* General Styles */
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* Experience Card */
+.experience-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.experience-img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+}
+
+.experience-text {
+    max-width: 500px;
+}
+
+.experience-text h6 {
+    font-size: 1rem;
+    color: #666;
+    font-weight: bold;
+}
+
+.experience-text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.experience-text p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.contact {
+    font-weight: bold;
+    color: black;
+}
+
+/* Read More Button */
+.read-more-btn {
+    display: inline-block;
+    border: 2px solid blue;
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.read-more-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Navigation */
+.experience-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.page-number {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-buttons button {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.nav-buttons button:hover {
+    background-color: darkblue;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-img {
+        max-width: 90%;
+    }
+
+    .experience-text {
+        max-width: 100%;
+    }
+
+    .experience-text h2 {
+        font-size: 1.8rem;
+    }
+
+    .read-more-btn {
+        padding: 8px 15px;
+    }
+
+    .nav-buttons button {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 325px) and (max-width: 768px) {
+    .experience-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-img {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .experience-card {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .experience-img {
+        max-width: 80%;
+    }
+
+    .experience-text {
+        max-width: 100%;
+    }
+
+    .experience-text h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .experience-card {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .experience-img {
+        max-width: 500px;
+    }
+}
+
+
+
+
+/* section 5 */
+
+
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+.section-icon {
+    text-align: center;
+    font-size: 2rem;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+/* Testimonial Card */
+.testimonial-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+    margin: 10px;
+}
+
+.testimonial-card::after {
+    content: "”";
+    font-size: 3rem;
+    color: blue;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-family: serif;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.testimonial-author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.testimonial-author strong {
+    font-size: 1rem;
+    color: #222;
+}
+
+.testimonial-author span {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Carousel Controls */
+.carousel-indicators [data-bs-target] {
+    background-color: blue;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+/* Floating Scroll Button */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: blue;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scroll-top:hover {
+    background: darkblue;
+}
+
+/* Media Queries */
+@media (min-width: 768px) and (max-width: 992px) {
+    .testimonial-card {
+        padding: 15px;
+    }
+
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+
+    .testimonial-author img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        width: 6px;
+        height: 6px;
+    }
+}
+
+/* section 6 */
+/* General Styling */
+
+
+.blog-section {
+    margin-top: 30px;
+}
+
+.blog-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.blog-subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Blog Card Styling */
+.blog-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover img {
+    transform: scale(1.1);
+}
+
+.blog-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* View All Button */
+.view-all-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    background: transparent;
+    color: blue;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.view-all-btn:hover {
+    background: blue;
+    color: white;
+}
+
+/* Media Queries */
+@media (min-width: 768px) and (max-width: 992px) {
+    .blog-title {
+        font-size: 2rem;
+    }
+
+    .blog-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .blog-overlay {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+
+
+/* General Styling */
+
+
+/* Follow Us Section */
+.follow-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.follow-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.follow-section p {
+    color: gray;
+    font-size: 1rem;
+}
+
+.instagram-images {
+  
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.instagram-images img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: black;
+    padding: 40px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons i {
+    font-size: 1.5rem;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .footer-content {
+        text-align: center;
+    }
+}
+@media (max-width: 325px) {
+    .social-icons i {
+        font-size: 1.2rem;
+    }
+}

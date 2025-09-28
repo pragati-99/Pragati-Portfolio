@@ -1,0 +1,234 @@
+.hero-section {
+    background: #EBDCF9;
+    padding: 100px 20px;
+    text-align: left;
+    position: relative;
+}
+.hero-content h1 {
+    color: #2C1C5D;
+    font-weight: bold;
+}
+.hero-content p {
+    color: #4A3A74;
+    max-width: 500px;
+}
+.btn-custom {
+    background-color: #FF1493;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #D01173;
+}
+.hero-image {
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 100px;
+    }
+    .hero-content {
+        max-width: 50%;
+    }
+    .hero-image {
+        max-width: 45%;
+    }
+}
+
+
+/* 2nd section  */
+/* .course-section {
+    background: #EBDCF9;
+    padding: 100px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course-content {
+    max-width: 50%;
+}
+.course-content h1 {
+    color: #2C1C5D;
+    font-weight: bold;
+}
+.course-content p {
+    color: #4A3A74;
+}
+.btn-custom {
+    background-color: #FF1493;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.btn-custom:hover {
+    background-color: #D01173;
+}
+.progress-bar-custom {
+    height: 20px;
+    border-radius: 10px;
+}
+.course-image {
+    max-width: 45%;
+}
+@media (max-width: 768px) {
+    .course-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .course-content, .course-image {
+        max-width: 100%;
+    }
+}
+ */
+
+
+
+
+/* section course card */
+
+
+.course-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+.course-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.course-image img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.course-title {
+    font-weight: bold;
+    color: #2e206d;
+}
+
+.course-desc {
+    color: #6c757d;
+    font-size: 14px;
+}
+
+.course-info {
+    font-size: 14px;
+    color: #2e206d;
+}
+
+.stars {
+    color: #ffcc00;
+}
+
+.learn-btn {
+    background-color: #6c4394;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    display: inline-block;
+}
+
+.learn-btn:hover {
+    background-color: #532b7f;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .course-card {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .play-btn {
+        font-size: 30px;
+        padding: 8px;
+    }
+}
+/* Coursekit section */
+
+.CourseKit{
+    background-color: #E4D0E5;
+}
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c2c2c;
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card-custom {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+}
+.card-1 { background-color: #7c4dff; }
+.card-2 { background-color: #e91e63; }
+.card-3 { background-color: #7c4dff; }
+.btn-custom {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.btn-custom:hover {
+    background-color: #d81b60;
+}
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+@media (max-width: 992px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

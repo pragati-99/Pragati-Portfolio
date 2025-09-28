@@ -1,0 +1,934 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #FFFFFF;
+    --primary-color: #050000;
+    --secondary-color: #E93F1A;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header section  */
+.header_sec {
+    background-color: var(--primary-color);
+    background-color: #1C0404;
+    color: white;
+    padding: 2%;
+}
+
+.headdiv1 {
+    width: 20%;
+    font-family: sans-serif;
+    font-size: 17px;
+
+}
+
+.headdiv2 {
+    width: 80%;
+    font-family: sans-serif;
+}
+
+/* hero section */
+.hero_img {
+    position: relative;
+    height: 70vh;
+}
+
+.herodiv {
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    color: white;
+    top: 10%;
+    font-family: sans-serif;
+}
+
+.heroh3 {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.heroh1 {
+    padding-top: 3%;
+    font-size: 48px;
+    font-family: sans-serif;
+
+
+}
+
+.herop {
+    padding-top: 3%;
+    font-size: 16px;
+    font-family: sans-serif;
+
+
+}
+
+.herobutton {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px 20px 0px 20px;
+    background-color: white;
+    color: black;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
+
+.herobutton:hover {
+    background-color: black;
+    color: white;
+
+}
+
+
+@media (min-width: 768px) {
+
+    .hero_img {
+
+        height: 45vh;
+    }
+
+
+    .headdiv1 {
+
+        font-size: 28px;
+    }
+
+    .herodiv {
+        width: 100%;
+
+        align-items: center;
+        font-family: sans-serif;
+        text-align: center;
+
+
+    }
+
+    .heroh3 {
+        font-size: 38px;
+
+
+    }
+
+    .heroh1 {
+
+        font-size: 68px;
+        display: inline;
+    }
+
+    .herop {
+        font-size: 24px;
+
+
+
+    }
+
+    .herobutton {
+
+
+        font-size: 22px;
+        margin-top: 5%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .hero_img {
+
+        height: 90vh;
+    }
+
+
+    .headdiv1 {
+
+        font-size: 24px;
+    }
+
+    .herodiv {
+        width: 100%;
+        align-items: center;
+        font-family: sans-serif;
+
+    }
+
+    .heroh3 {
+        font-size: 42px;
+        padding-bottom: 3%;
+        padding-top: 5%;
+
+
+    }
+
+    .heroh1 {
+        display: inline;
+
+
+        font-size: 74px;
+
+    }
+
+    .herop {
+
+
+        font-size: 25px;
+        padding-top: 5%;
+    }
+
+    .herobutton {
+
+        font-size: 23px;
+
+        margin-top: 5%;
+    }
+
+}
+
+
+/* section 1 */
+
+
+.section1 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+
+}
+
+.secdiv {
+    width: 100%;
+
+}
+
+.secdiv h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-top: 10%;
+    font-size: 32px;
+
+}
+
+.secdiv p {
+    font-size: 16px;
+    padding-top: 4%;
+}
+
+.sectdiv1 {
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fig {
+    width: 100%;
+    align-items: center;
+    padding-bottom: 6%;
+
+
+}
+
+.imgsec1 {
+    align-items: center;
+    width: 35%;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    border: solid 20px rgb(65, 65, 65);
+    border-radius: 50%;
+
+}
+
+.figcap {
+    font-size: 20px;
+    padding-top: 6%;
+    font-family: sans-serif;
+}
+
+@media (min-width: 768px) {
+
+
+    .sectdiv1 {
+
+        display: flex;
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+
+
+    .fig {
+        width: 33%;
+        align-items: center;
+
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+
+    .fig {
+        width: 20%;
+
+    }
+}
+
+
+
+/* section 2 */
+
+.section2 {
+    width: 100%;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+.sec2div1 {
+    width: 100%;
+    padding-bottom: 3%;
+
+}
+
+.sec2div2 {
+    width: 100%;
+    padding-top: 3%;
+    text-align: left;
+    padding-left: 3%;
+
+}
+
+.divh2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.divp {
+    font-size: 16px;
+    margin: 4%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px 20px 0px 20px;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+    font-family: sans-serif;
+    margin-left: 5%;
+}
+
+
+.herobutton:hover {
+    background-color: white;
+    color: black;
+
+}
+
+
+@media (min-width: 768px) {
+
+
+    .sec2div1 {
+        width: 90%;
+
+
+
+    }
+
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .section2 {
+        display: flex;
+
+
+    }
+
+
+    .sec2div1 {
+        width: 50%;
+        height: 50vh;
+
+
+    }
+
+
+    .sec2div2 {
+        margin-top: 5%;
+        width: 50%;
+        height: 50vh;
+
+
+    }
+
+
+}
+
+/*  */
+.section3 {
+    width: 100%;
+    text-align: left;
+    font-family: sans-serif;
+    background-color: white;
+
+}
+
+
+.whoclass {
+    width: 100%;
+    padding: 5%;
+}
+
+.whoclass h2 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 4%;
+
+}
+
+.whoclass p {
+    font-size: 16px;
+
+}
+
+
+.imgsection {
+    width: 100%;
+    padding: 5%;
+    margin-top: 0%;
+}
+
+
+
+@media (min-width: 768px) {
+
+
+
+
+    .whoclass {
+        width: 90%;
+        align-items: center;
+        margin-left: 3%;
+
+    }
+
+
+    .imgsection {
+        width: 90%;
+        margin-left: 4%;
+    }
+
+
+
+}
+
+@media (min-width: 1200px) {
+
+
+    .sec1 {
+        display: flex;
+    }
+
+    
+.whoclass {
+    padding-top: 30%;
+}
+
+}
+
+
+/*  */
+.section4 {
+
+    width: 100%;
+
+    text-align: center;
+    font-family: sans-serif;
+
+
+}
+
+.sec4 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.clientdiv {
+    width: 70%;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin: 5%;
+    box-shadow: 9%;
+    margin-left: 10%;
+
+
+}
+
+.person {
+    width: 28%;
+    padding-top: 5%;
+}
+
+.clientdiv h3 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 1%;
+
+}
+
+
+.eli {
+    color: #E93F1A;
+    font-size: 16px;
+    padding-top: 2%;
+}
+
+.quote {
+    width: 10%;
+    margin-top: 5%;
+
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+    padding-top: 5%;
+    margin: 3%;
+    padding-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+
+
+    .clientdiv {
+        width: 75%;
+    }
+
+    .quote {
+        width: 5%;
+
+
+    }
+
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .clientdiv {
+        width: 30%;
+        text-align: center;
+        margin-left: 35%;
+
+    }
+
+
+
+
+}
+
+/* section 5 */
+
+
+.section5 {
+    width: 100%;
+    background-color: #292929;
+    text-align: center;
+    font-family: sans-serif;
+    color: #FFFFFF;
+
+}
+
+.sec5 {
+
+    padding-top: 3%;
+    letter-spacing: 1%;
+    flex-wrap: wrap;
+}
+
+.sec5 h2 {
+    font-size: 32px;
+
+}
+
+.sec5 h5 {
+    font-size: 16px;
+}
+
+
+@media (min-width: 768px) {
+
+
+    .target_class {
+        display: flex;
+        justify-content: space-evenly;
+
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .section5 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .target_class {
+        width: 50%;
+        justify-content: space-evenly;
+        gap: 5%;
+    }
+
+
+}
+
+/* section 6 */
+
+.section6 {
+    width: 100%;
+    font-family: sans-serif;
+
+
+}
+
+.contactdiv {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+}
+
+.call h2 {
+    padding-top: 5%;
+    width: 90%;
+    text-align: left;
+    font-size: 32px;
+    padding-left: 5%;
+}
+
+
+.call1 {
+    padding-top: 9%;
+}
+
+.form {
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: 16px;
+    padding-left: 4%;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+.form1 {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10%;
+}
+
+.bclass {
+    background-color: #FEC913;
+    padding: 10px 20px;
+    border: 1px solid #FEC913;
+    color: white;
+    border-radius: 15px;
+    margin-top: 5%;
+
+}
+
+@media (min-width: 768px) {
+
+    .call h2 {
+
+        text-align: center;
+
+
+
+    }
+
+    .contactdiv {
+        width: 100%;
+    }
+
+    .form,
+    .form1 {
+        width: 80%;
+        border-radius: 30px;
+
+    }
+
+    .form1 {
+
+        padding-left: 4%;
+
+    }
+
+    .bclass {
+        width: 20%;
+
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+
+
+    .contactdiv {
+        width: 100%;
+    }
+
+    .form,
+    .form1 {
+        width: 70%;
+        border-radius: 30px;
+
+    }
+
+    .form1 {
+
+        padding-left: 4%;
+
+    }
+
+    .bclass {
+        width: 15%;
+
+    }
+}
+
+/* section7 */
+
+
+.section7 {
+    width: 100%;
+}
+
+.sec7div {
+    width: 90%;
+    align-items: center;
+}
+
+.map {
+    width: 90%;
+    margin: 5%;
+    align-items: center;
+    margin-left: 5%;
+
+
+}
+
+
+@media (min-width: 768px) {
+
+    .map {
+        width: 80%;
+        padding-left: 15%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+
+    .map {
+        width: 80%;
+        padding-left: 15%;
+    }
+}
+
+
+/* footer section  */
+
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px;
+}
+
+.instagram-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.instagram-item {
+    background-color: #FFFFFF;
+    width: 50px;
+    height: 50px;
+    background-image: url('./images/insta.png');
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+    margin-top: 5px;
+}
+
+button {
+    background: #f4b400;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.social-icons span {
+    margin: 0 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .instagram-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Button hover effect */
+.herobutton, .button, .bclass {
+    transition: all 0.3s ease-in-out;
+}
+
+.herobutton:hover, .button:hover, .bclass:hover {
+    transform: scale(1.1);
+}
+
+/* Slide-in effect for sections */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7 {
+    animation: slideIn 1s ease-in-out;
+}
+
+/* Bounce effect for buttons */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.herobutton:hover, .button:hover, .bclass:hover {
+    animation: bounce 0.5s ease-in-out;
+}
+
+/* Pulse effect for call-to-action buttons */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.bclass {
+    animation: pulse 2s infinite;
+}
